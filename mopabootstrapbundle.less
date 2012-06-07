@@ -23,10 +23,14 @@
 // e.g. you less file lives in src/Acme/DemoBundle/Resources/public/less/mymainless.less
 // then use 
 // @import '../../../../../Acme/DemoBundle/Resources/public/less/mymainless.lesss';
-@import "../../../bootstrap/less/bootstrap.less";
+@import "../../bootstrap/less/bootstrap.less";
 
 // The Paginator less for MopaBootstrapBundle
-@import "../paginator.less";
+@import "../less/paginator.less";
+
+@import "../src/Dan/DesignBundle/Resources/public/less/example.less";
+@import "../src/Dan/DesignBundle/Resources/public/less/main.less";
 
 // include the responsive after all of your stuff!
-@import "../../../bootstrap/less/responsive.less";
+@import "../../bootstrap/less/responsive.less";
+
